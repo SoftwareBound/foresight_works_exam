@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.multiselect {
+  width: 200px;
+  margin: auto;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  width: 100%;
+
+  background: cornsilk;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+.input_search {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.button {
+  border-radius: 5px;
+  margin: 1vh;
+  float: right;
+}
+
+.button:hover {
+  background: gainsboro;
+}
